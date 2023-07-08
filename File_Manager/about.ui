@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>about</class>
+ <widget class="QWidget" name="about">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>798</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Руководство пользования</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>Руководство пользования</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>При открытии файлового менеджера вы увидите 2 области экрана, а так же места над ними: над левой областью находятся три кнопки которые являются кнопками управляниями директориями. Левая область предназначена для отображения всех директорий в файловой системе компьютера, в ней можно раскрывать различные директории, а по двойному клику переходить в них, при этом все их содержимое будет отображаться в правой области. Правая область отображает все содержимое директории. В ней также можно переходить по директория, дважды кликая по ним, а также открывать файлы, дважды кликнув по ним. При нажатии ПКМ в правой области, появится контекстное меню, которая в зависимости от того какие элемент файловой системы были выбраны, предоставит различные способы взаимодействия с файловой системой. Основными являются: Копировать - копирует выбранные файлы и директории в буфер обмена; Вставить - вставляет все что находится в буфере обмена; Переименовать - открывает меню для того чтобы переименовать выбранный файл; Создать - открывает подменю в котором можно выбрать, что именно создать - файл или папку, после выбора, появляется окно для ввода названия; Удалить - удаляет выбранные файлы. По мере того как вы переходите из одной директории в другую, над правой областью отображается ее путь, нажав по любому элементу которого, можно вернуться назад. Так же в нижнем левом углу отображается количество элементов (файлов и папок) в текущей директории.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
